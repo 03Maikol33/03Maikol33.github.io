@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maikol Gasparroni</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="maikol.jpeg" type="image/jpeg">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Maikol<span class="text-orange">.</span>Codes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Chi Sono</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Progetti</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section d-flex align-items-center">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center g-5">
+                
+                <div class="col-md-5 text-center hero-photo-block">
+                    <img src="maikol.jpeg" alt="Maikol" class="img-fluid hero-photo rounded-circle shadow-lg border-orange">
+                </div>
+                
+                <div class="col-md-7 text-md-start text-center hero-text-block">
+                    <div class="ps-md-5">
+                        <span class="badge bg-outline-orange mb-3 fs-6">Studente di Informatica</span>
+                        <h1 class="display-3 fw-bold mb-3">Costruisco le mie <span class="text-orange">basi</span>,</h1>
+                        <h1 class="display-5 fw-bold mb-4">un progetto alla volta.</h1>
+                        
+                        <p class="lead mb-5 text-secondary">
+                            Sono Maikol. Sto concentrando i miei studi sull'esplorazione dello sviluppo <strong class="text-white">Backend con Java</strong> e sulla creazione di interfacce responsive per <strong class="text-white">Web e Mobile</strong>. Sono ancora alle prime armi, ma la voglia di crescere e mettermi alla prova non manca mai.
+                        </p>
+                        
+                        <div class="d-flex justify-content-md-start justify-content-center gap-3">
+                            <a href="#projects" class="btn btn-orange btn-lg">Vedi i miei Esperimenti</a>
+                            <a href="https://github.com/03Maikol33" class="btn btn-outline-light btn-lg"><i class="fab fa-github me-2"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 bg-black">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Il Mio <span class="text-orange">Percorso</span></h2>
+            <div class="row align-items-center">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <p class="lead text-secondary mb-4">
+                        Ciao, sono <strong class="text-white">Maikol</strong>. Attualmente sono uno studente di Informatica. La mia passione è capire come funzionano le cose "sotto il cofano" e come il codice possa risolvere problemi reali.
+                    </    p>
+                    <p class="text-secondary mb-5">
+                        Non sono ancora un professionista, ma sto concentrando i miei studi sullo sviluppo <strong class="text-white">Backend con Java</strong> e sulla creazione di interfacce responsive per <strong class="text-white">Web e Mobile</strong>. Amo le sfide: il mio progetto `ARPhotoLive` ne è la prova, nato come esperimento per imparare nuove tecnologie da zero. Clicca sui progetti sotto per vedere i miei progressi!
+                    </p>
+                    <div class="d-flex justify-content-center gap-4 text-orange">
+                        <div class="text-center"><i class="fab fa-java fa-3x mb-2"></i><br>Java</div>
+                        <div class="text-center"><i class="fas fa-globe fa-3x mb-2"></i><br>Web</div>
+                        <div class="text-center"><i class="fas fa-mobile-alt fa-3x mb-2"></i><br>Mobile</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Primi <span class="text-orange">Esperimenti</span></h2>
+            <div class="row g-4 justify-content-center">
+                
+                <div class="col-md-6 col-lg-5">
+                    <div class="card project-card h-100 bg-dark text-white border-0 shadow">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="project-icon mb-3"><img src="QuakeGuard.png" alt="QuakeGuard" class="img-fluid rounded"></div>
+                            <h5 class="card-title fw-bold">QuakeGuard</h5>
+                            <p class="card-text text-secondary mb-4">Un'applicazione web che fornisce informazioni in tempo reale sui terremoti in Italia, utilizzando i dati dell'INGV.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-secondary mb-2">JavaScript</span>
+                                <span class="badge bg-secondary mb-2">HTML/CSS</span>
+                                <br>
+                                <a href="https://github.com/03Maikol33/QuakeGuard" class="btn btn-sm btn-orange w-100 mt-2">Vedi Codice su GitHub</a>
+                                <a href="https://03Maikol33.github.io/QuakeGuard" class="btn btn-sm btn-outline-orange w-100 mt-2">Vai all'app</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <div class="card project-card h-100 bg-dark text-white border-0 shadow">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="project-icon mb-3"><img src="ARPhotoLive.png" alt="ARPhotoLive" class="img-fluid rounded"></div>
+                            <h5 class="card-title fw-bold">ARPhotoLive</h5>
+                            <p class="card-text text-secondary mb-4">Un esperimento di Realtà Aumentata Web (WebAR) sviluppato da zero come sfida durante i miei studi. Permette di "animare" le foto dell'album con video personalizzati.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-secondary mb-2">MindAR.js</span>
+                                <span class="badge bg-secondary mb-2">A-Frame (HTML/JS)</span>
+                                <br>
+                                <a href="https://github.com/03Maikol33/ARPhotoLive" class="btn btn-sm btn-orange w-100 mt-2">Vedi Codice su GitHub</a>
+                                <a href="https://03Maikol33.github.io/ARPhotoLive" class="btn btn-sm btn-outline-orange w-100 mt-2">Vai all'app</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <div class="card project-card h-100 bg-dark text-white border-0 shadow">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="project-icon mb-3"><img src="QuakeGuard-Android.png" alt="QuakeGuard Android App" class="img-fluid rounded"></div>
+                            <h5 class="card-title fw-bold">QuakeGuard-Android</h5>
+                            <p class="card-text text-secondary mb-4">Un'applicazione Android che porta QuakeGuard web app sul dispositivo mobile. Sviluppata come progetto universitario di sviluppo mobile in Kotlin e Compose.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-secondary mb-2">Android</span>
+                                <span class="badge bg-secondary mb-2">Kotlin</span>
+                                <span class="badge bg-secondary mb-2">Jetpack Compose</span>
+                                <br>
+                                <a href="https://github.com/03Maikol33/QuakeGuard-Android" class="btn btn-sm btn-orange w-100 mt-2">Vedi Codice su GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <div class="card project-card h-100 bg-dark text-white border-0 shadow">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="project-icon mb-3"><img src="Fantamaster-Camb.png" alt="Fantamaster-Camb" class="img-fluid rounded"></div>
+                            <h5 class="card-title fw-bold">Fantamaster-Camb</h5>
+                            <p class="card-text text-secondary mb-4">App desktop Java per la gestione di leghe di fantacalcio. Sviluppata come progetto universitario di programmazione Agile con Framework SCRUM</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-secondary mb-2">Java</span>
+                                <span class="badge bg-secondary mb-2">JavaFX</span>
+                                <span class="badge bg-secondary mb-2">Sql</span>
+                                <span class="badge bg-secondary mb-2">SCRUM</span>
+                                <span class="badge bg-secondary mb-2">Agile</span>
+                                <br>
+                                <a href="https://github.com/03Maikol33/Fantamaster-Camb" class="btn btn-sm btn-orange w-100 mt-2">Vedi Codice su GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <div class="card project-card h-100 bg-dark text-white border-0 shadow">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="project-icon mb-3"><i class="fas fa-images fa-2x"></i></div>
+                            <h5 class="card-title fw-bold">mkGallery.js</h5>
+                            <p class="card-text text-secondary mb-4">Mini libreria per la creazione di gallerie foto responsive.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-secondary mb-2">JavaScript</span>
+                                <span class="badge bg-secondary mb-2">HTML/CSS</span>
+                                <br>
+                                <a href="https://github.com/03Maikol33/mkGallery.js" class="btn btn-sm btn-orange w-100 mt-2">Vedi Codice su GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+                    <div class="card project-card h-100 bg-dark text-white border-0 shadow">
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="project-icon mb-3"><i class="fas fa-code fa-2x"></i></div>
+                            <h5 class="card-title fw-bold">Altro</h5>
+                            <p class="card-text text-secondary mb-4">Altri miei progetti, esperimenti e idee sono hostati su Altervista. Si tratta di sperimentazioni e sviluppi personali.</p>
+                            <div class="mt-auto">
+                                <span class="badge bg-secondary mb-2"></span>
+                                <br>
+                                <a href="https://maikolgasparroni2003.altervista.org/index.html" class="btn btn-sm btn-outline-orange w-100 mt-2">Vai a Altervista</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-5 bg-black text-center text-white">
+        <div class="container">
+            <h3 class="fw-bold mb-4">Connettiamoci</h3>
+            <p class="text-secondary mb-4">Sono alle prime armi, ma sempre aperto a feedback, scambi di idee o nuove opportunità di apprendimento.</p>
+            <div class="d-flex justify-content-center gap-4 mb-4 social-links">
+                <a href="https://github.com/03Maikol33" title="GitHub"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/maikol-gasparroni-433486383/" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/maikol_gasparroni/" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <p class="text-secondary small">&copy; 2026 Maikol. Creato con passione, Bootstrap e tanta voglia di imparare.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
